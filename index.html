@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    
+    <header>
+       
+    </header>
+    <main>
+        <h1> Formularios</h1>
+        <form action="" method="post">
+            
+            <fieldset>
+                <legend>datos personales</legend>
+                 <label for="nombre">nombre:</label>
+                 <input
+                 type="text"
+                  name="nombre"
+                  id="nombre"
+                  maxlenght="100"
+                  placeholder="sofia"
+                  value=""
+                  size="4">
+                  <label for="apellido">apellido:</label>
+                 <input
+                 type="text"
+                  name="apellido"
+                  id="apellido"
+                  maxlenght="100"
+                  placeholder="irazabal"
+                  value=""
+                  size="4"
+                  required>
+            </fieldset>
+                   <!--max lengt es cant de caracteres
+                   placeholder es un ej de la/en casilla
+                  value es predefinido que aparece
+                  size es el tamaño
+                  div encierra label y input y baja la cajita-->
+             
+            <fieldset> 
+                <legend>probando inputs</legend>
+                <input type="color" name="" id="">
+
+                <input type="checkbox" name="" id=""><label for="">si</label>
+                <input type="date" name="" id="">
+                <input type="email" name="" id="">
+                <input type="password" name="" id="">
+                <input type="url" name="" id="" placeholder="http...">
+            </fieldset>      <!-- <input type="submit" value="enviar"> -->
+            <div>
+                <label for="">consulta</label>
+                <textarea name="consulta" id="consulta">hola escribe aqui..</textarea>
+            </div>
+            <div>
+                <label for="opcion">opciones:</label>
+                <select name="opcion" id="opcion">
+                    <option value="1">opcion 1</option>
+                    <option value="2">opcion2</option>
+                </select>
+            </div>
+            <button>enviar</button>
+        
+
+        </form>
+
+    </main>
+    <footer>
+        <small>copyright 2024</small>
+    </footer>
+</body>
+</html>
